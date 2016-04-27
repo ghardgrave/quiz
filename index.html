@@ -15,38 +15,48 @@
 
 <h1>Easter Island Quiz</h1>
 <div class="questions">
+
+<div class="numbers">
 <ul>
-<li>
-<div class="numberCircleInverted">1
-</div>
+<li class="numberCircleInverted" id="nci1">
+1
 </li>
-<li>
-<div class="numberCircle">2
-</div>
+<li class="numberCircle" id="nc1">
+1
 </li>
-<li>
-<div class="numberCircle">3
-</div>
-</li>
-<li>
-<div class="numberCircle">4
-</div>
-</li>
-<li>
-<div class="numberCircle">5
-</div>
-</li>
+
+<li class="numberCircleInverted" id="nci2">2</li>
+<li class="numberCircle" id="nc2">2</li>
+
+<li class="numberCircle" id="nc3">3</li>
+<li class="numberCircleInverted" id="nci3">3</li>
+
+<li class="numberCircle" id="nc4">4</li>
+<li class="numberCircleInverted" id="nci4">4</li>
+
+<li class="numberCircle" id="nc5">5</li>
+<li class="numberCircleInverted" id="nci5">5</li>
+
 </ul>
+</div>
 <div class="text">
 
+<div class="start">
+<img src="images/info.png" width=300px>
+<a href="#" class="myButton">Start</a>
+</div>
+<!-- start questions -->
 
 <div class="n1">
 <div class="q">What country is Easter Island part of?</div>
 <br>
-<div class="selected">1. Chile</div>
+1. Chile<br>
 2. Tahiti<br>
 3. Ecuador<br>
 4. Peru
+<div class="arrows">
+<img src="images/rtarrow.png" width=50px id="a1">
+</div>
 </div>
 
 <div class="n2">
@@ -57,6 +67,9 @@
 2. Moai<br>
 3. Toki<br>
 4. Pukao
+<div class="arrows">
+<img src="images/rtarrow.png" width=50px id="a2">
+</div>
 </div>
 
 <div class="n3">
@@ -67,6 +80,9 @@
 2. Toward each other<br>
 3. Toward the sea<br>
 4. Inland
+<div class="arrows">
+<img src="images/rtarrow.png" width=50px id="a3">
+</div>
 </div>
 
 <div class="n4">
@@ -77,6 +93,9 @@
 2. Orango<br>
 3. Rapa Nui<br>
 4. Rapa Iti
+<div class="arrows">
+<img src="images/rtarrow.png" width=50px id="a4">
+</div>
 </div>
 
 
@@ -84,15 +103,16 @@
 <div class="q">What is the name of the only town on Easter Island?
 </div>
 <br>
-<div class="selected">1. Papeete</div>
+1. Papeete<br>
 2. Tongariki<br>
 3. Anakena<br>
 4. Hanga Roa
+<div class="arrows">
+<img src="images/rtarrow.png" width=50px id="a5">
+</div>
 </div>
 
-<div class="arrows">
-<img src="images/rtarrow.png" width=50px>
-</div>
+<!-- end questions -->
 
 
 
@@ -114,6 +134,6 @@
 </div>
 <!--- end maincontainer -->
 <script src="//code.jquery.com/jquery-latest.min.js"></script>
-<script src="/js/script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
