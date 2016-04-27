@@ -1,5 +1,17 @@
 $(document).ready(function(){
+/* quiz functionality */
 
+$('.answer').click(function(){
+	$('.answer').removeClass('selected');
+	$(this).addClass( "selected" );
+	$('.rightarrow').fadeIn( 500 ).show();
+});
+
+
+
+
+
+/* navigation buttons and arrows */
 $('.myButton').click(function(){
         $('.start').fadeOut ( 'slow' ).hide();
         $('.n1').fadeIn( 500 ).show();
@@ -9,16 +21,16 @@ $('.myButton').click(function(){
 });
 
 $('#a1').click(function(){
-
+	$('.rightarrow').hide();
 	$('.n1').hide();
 	$('.n2').fadeIn( 500 ).show();
 	$('#nc2').hide();
 	$('#nci2').fadeIn ( 500 ).show();
- 		$('#nci2').css('display', 'inline-block');
+ 	$('#nci2').css('display', 'inline-block');
 });
 
 $('#a2').click(function(){
-
+	$('.rightarrow').hide();
 	$('.n2').hide();
 	$('.n3').fadeIn( 500 ).show();
 	$('#nc3').hide();
@@ -28,7 +40,7 @@ $('#a2').click(function(){
 
 
 $('#a3').click(function(){
-
+$('.rightarrow').hide();
 	$('.n3').hide();
 	$('.n4').fadeIn( 500 ).show();
 	$('#nc4').hide();
@@ -39,7 +51,7 @@ $('#a3').click(function(){
 });
 
 $('#a4').click(function(){
-
+$('.rightarrow').hide();
 	$('.n4').hide();
 	$('.n5').fadeIn( 500 ).show();
 	$('#nc5').hide();
@@ -50,9 +62,7 @@ $('#a4').click(function(){
 
 $('#a5').click(function(){
 	$('.n5').hide();
-	
-
-
 });
+/* end navigation */
 
 });

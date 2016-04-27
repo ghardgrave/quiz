@@ -9,6 +9,14 @@ text-decoration: none;
 color: #333;
 }
 
+.answer {
+  text-align: center;
+}
+
+.selected {
+  background-color: #445155;
+}
+
 .start {
 text-align: center;
 margin: -3em 0 1em 0;
@@ -19,22 +27,24 @@ text-align: center;
 font-weight: bold;
 }
 
-.n1, .n2, .n3, .n4, .n5 {
+.n1, .n2, .n3, .n4, .n5, .results {
 display: none;
 margin-top: -1rem;
 }
 
+
+/* initial status of progress bar numbers */
 #nci1, #nci2, #nci3, #nci4, #nci5 {
  display: none; 
-     list-style-type: none;
+ list-style-type: none;
 
 }
 
-
+/* main content box */
 .questions {
 background-color: black;
 width: 550px;
-height: 475px;
+height: 450px;
 min-height: 350px;
 margin: 25px 0 0 25px;
 border-style: double;
@@ -44,20 +54,18 @@ padding: 0 0 0 .25em;
 }
 
 .numbers {
-margin-left: 1.5rem;
-
+margin-left: 1.29rem;
 }
 
 .numbers ul {
-
   display: inline-block;
 }
 
 .numbers li {
   padding: .5em;
   text-align: center;
-    display: inline-block;
-    margin: 1.33rem 1.33rem 1.33rem 1.5rem;
+  display: inline-block;
+  margin: 1.33rem 1.33rem 1.33rem 1.5rem;
 
 }
 
@@ -123,6 +131,11 @@ min-height: 100vh;
 
 }
 
+.rightarrow {
+display: none;
+
+}
+
 .text {
 color: white;
 padding: 2rem 1rem 1rem 1rem;
@@ -130,16 +143,8 @@ width: 60%;
 margin: 0 auto;
 }
 
-
-
-.selected {
-color: yellow;
-text-decoration: underline;
-margin: 0;
-}
-
 .arrows {
-margin: 1rem auto 0rem auto;
+margin: 2rem auto 0rem auto;
 text-align: center;
 }
 
