@@ -23,6 +23,7 @@ margin: -3em 0 1em 0;
 }
 
 .q {
+  margin-top: 1rem;
 text-align: center;
 font-weight: bold;
 }
@@ -164,6 +165,7 @@ text-align: center;
   -webkit-border-radius:6px;
   border-radius:6px;
   border:1px solid #84bbf3;
+  margin-top: 5px;
   display:inline-block;
   cursor:pointer;
   color: white;
