@@ -9,6 +9,18 @@ text-decoration: none;
 color: #333;
 }
 
+
+
+.q {
+text-align: center;
+font-weight: bold;
+}
+
+.n2, .n3, .n4, .n5 {
+display: none;
+}
+
+
 .questions {
 
 background-color: black;
@@ -28,6 +40,21 @@ padding: 0 0 0 .25em;
   text-align: center;
     display: inline-block;
     margin: .25rem;
+}
+
+h1 {
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0 2.75rem;
+  padding-top: 6rem;
+  margin-left: 5rem;
+  color: #FDFDFD;
+  /*text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;*/
+  font-size: 3.2rem;
+  -webkit-text-stroke: 0px black;
 }
 
 h3 {
@@ -65,20 +92,7 @@ h3 {
 }
 
 
-h1 {
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  margin: 0 3rem;
-  padding-top: 6rem;
-  margin-left: 5rem;
-  color: #FDFDFD;
-  text-shadow:
-   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
-  font-size: 2.1rem;
-  -webkit-text-stroke: 1px black;
-}
+
 
 .maincontainer {
 height: 100%;
@@ -97,10 +111,7 @@ width: 60%;
 margin: 0 auto;
 }
 
-.qcenter {
-text-align: center;
-font-weight: bold;
-}
+
 
 .selected {
 color: yellow;
@@ -109,7 +120,7 @@ margin: 0;
 }
 
 .arrows {
-margin: 0 auto;
+margin: 1rem auto 0rem auto;
 text-align: center;
 
 }
