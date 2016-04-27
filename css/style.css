@@ -1,0 +1,276 @@
+
+body {
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a, a:visited {
+text-decoration: none;
+color: #333;
+}
+
+.questions {
+
+background-color: black;
+width: 550px;
+height: 75%;
+min-height: 350px;
+margin: 25px 0 0 25px;
+border-style: double;
+border-color: white;
+border-radius: 100px;
+padding: 0 0 0 .25em;
+}
+
+
+.questions li {
+  padding: .86em 1.5em 0 1.6em;
+  text-align: center;
+    display: inline-block;
+    margin: .25rem;
+}
+
+h3 {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  color: #FDFDFD;
+
+
+}
+
+.numberCircle {
+    border-radius: 50%;
+
+    width: 18px;
+    height: 18px;
+    padding: 7px 6px 7px 6px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: ;
+    text-align: center;
+    font: 15px Arial, sans-serif;
+}
+
+.numberCircleInverted {
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    padding: 7px 6px 7px 6px;
+    background: #666;
+    border: 2px solid #666;
+    color: white;
+    text-align: center;
+    font: 15px Arial, sans-serif;
+}
+
+
+h1 {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0 3rem;
+  padding-top: 6rem;
+  margin-left: 5rem;
+  color: #FDFDFD;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  font-size: 2.1rem;
+  -webkit-text-stroke: 1px black;
+}
+
+.maincontainer {
+height: 100%;
+min-height: 100vh;
+    width: 100%;
+    background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.text {
+color: white;
+padding: 2rem 1rem 1rem 1rem;
+width: 60%;
+margin: 0 auto;
+}
+
+.qcenter {
+text-align: center;
+font-weight: bold;
+}
+
+.selected {
+color: yellow;
+text-decoration: underline;
+margin: 0;
+}
+
+.arrows {
+margin: 0 auto;
+text-align: center;
+
+}
+
+
+
+/* responsive portrait */
+
+
+@media only screen and (max-device-width: 500px) 
+{
+
+.maincontainer {
+    background-image: url('images/background.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+img.shadow {
+-o-box-shadow:      6px 6px 5px #555;
+-icab-box-shadow:   6px 6px 5px   #555;
+-khtml-box-shadow:  6px 6px 5px #555;
+-moz-box-shadow:    6px 6px 5px   #555;
+-webkit-box-shadow: 6px 6px 5px  #555;
+box-shadow:         6px 6px 5px  #555;
+}
+
+
+#wrapper2 img {
+  visibility: visible;
+  opacity: 1;
+
+}
+
+
+.wiw {
+margin: 0 auto;
+width: 80%;
+height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.links > ul {
+margin: 0;
+padding: 1rem;
+
+}
+
+.links >  li {
+  padding: 0;
+  margin: 0 auto;
+}
+
+
+#wrapper1 .text {
+font-family: "Gentium Basic", "Georgia", serif;
+margin: 0 auto;
+color: white;
+padding: 2rem; 
+visibility: visible;
+opacity: 1;
+font-size: 1.33rem;
+}
+
+#wrapper1:hover .text {
+visibility:visible;
+opacity: 1;
+}
+
+
+h1 {
+	text-align: center;
+padding-top: 3rem;
+}
+
+  h2 {
+    font-size: 1.78rem;
+    padding: 2.5rem 0 0 0;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive landscape */
+
+@media only screen and (min-device-width: 501px) and (max-device-width : 1024px)
+
+{
+
+img.shadow {
+-o-box-shadow:      6px 6px 5px #555;
+-icab-box-shadow:   6px 6px 5px   #555;
+-khtml-box-shadow:  6px 6px 5px #555;
+-moz-box-shadow:    6px 6px 5px   #555;
+-webkit-box-shadow: 6px 6px 5px  #555;
+box-shadow:         6px 6px 5px  #555;
+}
+
+#wrapper2 img {
+  visibility: visible;
+  opacity: 1;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#wrapper2:hover img {
+visibility:visible;
+}
+
+
+#wrapper1 .text {
+font-family: "Gentium Basic", "Georgia", serif;
+margin: 0 auto;
+color: white;
+padding: 2rem 2rem 2rem 3.6rem; 
+visibility: visible;
+opacity: 1;
+}
+
+#wrapper1:hover .text {
+visibility:visible;
+opacity: 1;
+} 
+
+#wrapper1 a, a:visited
+{
+  color: #d3d3d3;
+  padding: 0 0 0 -.5rem;
+
+}
+
+h1 {
+  text-align: center;
+padding-top: 3rem;
+}
+
+h2 {
+  font-size: 1.78rem;
+  padding: 2.5rem 0 0 0;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+
+
+} 
