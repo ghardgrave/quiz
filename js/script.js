@@ -140,12 +140,12 @@ function score(){
 		var text = $('.selectedAnswer').text();
 
 		if(text === questions[currentQuestion].answer){
-       			alert("Yes! "+text+"is correct!");
+       			alert("Yes! "+text+" is correct!");
        			numberCorrect++;
        			console.log("number correct is "+numberCorrect);
        			
         }       else{
-        		alert("no, "+text+" is wrong");
+        		alert("Sorry, "+text+" is wrong.");
         }
 }
 
