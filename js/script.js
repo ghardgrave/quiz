@@ -59,7 +59,6 @@ $('.myButton').click(function(){
 
 
 
-
 /* advances circled numbers, displays new question, */
 
 function nextQuestion(){
@@ -103,14 +102,25 @@ function righton(){
 	else {
 
 		$(".RA").click(function(){
-			score();
-				
-    			$('.results').show; 
-       			var finalScore = '<div class="results"><h2>RESULTS</h2> You got '+numberCorrect+' question(s) right! <a href="#" class="myButton">Try Again</a></div>'
+			score();	
+    		$('.results').show; 
+       			var finalScore = '<div class="results"><h2>RESULTS</h2> You got '+numberCorrect+' question(s) right! <a href="#" class="resetButton">Try Again</a></div>'
 
-    			$("#question-wrapper").html(finalScore);
-			
+    		$("#question-wrapper").html(finalScore);
+
+    		$('.resetButton').click(function(){
+				currentQuestion = 0;
+				numberCorrect = 0;
+				$('.results').hide();
+				$('.numberCircleInverted').hide();
+				$('.numberCircle').show();
+				$('#nc1').hide();
+   			    $('#question-wrapper').fadeIn( 500 ).show();
+        		nextQuestion();
 			});
+
+			
+		});
 
 	}
 }
